@@ -1,24 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-	<url>
-		<loc>https://finework.tk/</loc>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//huseyinsekmenoglu.net/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<sitemap>
+		<loc>https://finework.tk</loc>
 		<changefreq>monthly</changefreq>
-	</url>
-
-	<url>
+	</sitemap>
+	<sitemap>
 		<loc>https://finework.tk/Главная.html</loc>
 		<changefreq>monthly</changefreq>
-	</url>
-
-	<url>
+	</sitemap>
+	<sitemap>
 		<loc>https://finework.tk/О-компании.html</loc>
 		<changefreq>monthly</changefreq>
-	</url>
-
-	<url>
-		<loc>https://finework.tk/Скачать-приложения.html</loc>
+	</sitemap>
+	<sitemap>
+		<loc>https://finework.tk/Скачать-приожения.html</loc>
 		<changefreq>monthly</changefreq>
-	</url>
-</urlset> 
+	</sitemap>
+</sitemapindex>
