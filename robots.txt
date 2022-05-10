@@ -1,4 +1,4 @@
-Sitemap: http://finework.tk/sitemap.xml
+Sitemap: http://finework.tk/map.xml
 
 User-agent: *
 Disallow:
