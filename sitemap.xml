@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<sitemap>
-		<loc>https://finework.tk</loc>
+		<loc>http://finework.tk</loc>
 		<changefreq>monthly</changefreq>
 	</sitemap>
 	<sitemap>
-		<loc>https://finework.tk/Главная.html</loc>
+		<loc>http://finework.tk/Главная.html</loc>
 		<changefreq>monthly</changefreq>
 	</sitemap>
 	<sitemap>
-		<loc>https://finework.tk/О-компании.html</loc>
+		<loc>http://finework.tk/О-компании.html</loc>
 		<changefreq>monthly</changefreq>
 	</sitemap>
 	<sitemap>
-		<loc>https://finework.tk/Скачать-приложения.html</loc>
+		<loc>http://finework.tk/Скачать-приложения.html</loc>
 		<changefreq>monthly</changefreq>
 	</sitemap>
 </sitemapindex>
