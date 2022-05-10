@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+	<url>
+		<loc>https://finework.tk/</loc>
+		<changefreq>monthly</changefreq>
+	</url>
+
+	<url>
+		<loc>https://finework.tk/Главная.html</loc>
+		<changefreq>monthly</changefreq>
+	</url>
+
+	<url>
+		<loc>https://finework.tk/О-компании.html</loc>
+		<changefreq>monthly</changefreq>
+	</url>
+
+	<url>
+		<loc>https://finework.tk/Скачать-приложения.html</loc>
+		<changefreq>monthly</changefreq>
+	</url>
+
+	<url>
+		<loc>https://t.me/FineWork_bot</loc>
+		<changefreq>monthly</changefreq>
+	</url>
+
+</urlset> 
