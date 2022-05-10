@@ -185,8 +185,8 @@
 }
 
 .u-section-2 .u-icon-5 {
-  width: 64px;
-  height: 64px;
+  width: 85px;
+  height: 85px;
   margin: 20px auto 0;
 }
 
@@ -709,7 +709,7 @@
   }
 
   .u-section-2 .u-btn-1 {
-    margin-left: 0;
+    margin-left: auto;
   }
 
   .u-section-2 .u-icon-2 {
@@ -722,7 +722,7 @@
   }
 
   .u-section-2 .u-btn-2 {
-    margin-left: 0;
+    margin-left: auto;
   }
 
   .u-section-2 .u-icon-3 {
@@ -735,7 +735,7 @@
   }
 
   .u-section-2 .u-btn-3 {
-    margin-left: 0;
+    margin-left: auto;
   }
 
   .u-section-2 .u-icon-4 {
@@ -748,13 +748,17 @@
   }
 
   .u-section-2 .u-btn-4 {
-    margin-left: 0;
+    margin-left: auto;
   }
 
   .u-section-2 .u-repeater-2 {
     grid-auto-columns: calc(33.333333333333336% - 6.66667px);
     grid-template-columns: repeat(3, calc(33.333333333333336% - 6.66667px));
     min-height: 627px;
+  }
+
+  .u-section-2 .u-icon-5 {
+    padding: 12px;
   }
 
   .u-section-2 .u-text-12 {
@@ -764,6 +768,7 @@
 
   .u-section-2 .u-icon-6 {
     color: rgb(127, 171, 218) !important;
+    padding: 10px;
   }
 
   .u-section-2 .u-text-14 {
@@ -773,6 +778,7 @@
 
   .u-section-2 .u-icon-7 {
     color: rgb(127, 171, 218) !important;
+    padding: 10px;
   }
 
   .u-section-2 .u-text-16 {
@@ -782,6 +788,7 @@
 
   .u-section-2 .u-icon-8 {
     color: rgb(127, 171, 218) !important;
+    padding: 10px;
   }
 
   .u-section-2 .u-text-18 {
