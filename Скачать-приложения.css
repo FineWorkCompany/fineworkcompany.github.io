@@ -725,12 +725,18 @@
 }
 
 .u-section-2 .u-text-46 {
-  margin: 10px auto 0;
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin: 20px auto 0;
+}
+
+.u-section-2 .u-text-47 {
+  margin: 6px auto 0;
 }
 
 .u-section-2 .u-btn-20 {
   background-image: none;
-  margin: 68px auto 0;
+  margin: 23px auto 0;
 }
 
 .u-section-2 .u-gallery-nav-13 {
