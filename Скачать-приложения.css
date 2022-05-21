@@ -58,7 +58,7 @@
 .u-section-2 .u-image-1 {
   width: 115px;
   height: 115px;
-  margin: 39px auto 0;
+  margin: 39px auto 0 515px;
 }
 
 .u-section-2 .u-text-2 {
@@ -1006,6 +1006,10 @@
     margin-left: 230px;
   }
 
+  .u-section-2 .u-image-1 {
+    margin-left: 425px;
+  }
+
   .u-section-2 .u-text-3 {
     margin-left: 173px;
     margin-right: 170px;
@@ -1044,6 +1048,10 @@
 @media (max-width: 575px) {
   .u-section-2 .u-text-1 {
     margin-left: 145px;
+  }
+
+  .u-section-2 .u-image-1 {
+    margin-left: 225px;
   }
 
   .u-section-2 .u-text-3 {
