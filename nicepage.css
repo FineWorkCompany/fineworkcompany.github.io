@@ -37366,6 +37366,7 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-nav-1 {
   font-size: 1.125rem;
   font-weight: 700;
+  font-family: Arial, sans-serif;
 }
 
 .u-header .u-nav-2 {
@@ -37385,10 +37386,6 @@ a.u-link.u-text-hover-grey-90:hover {
     width: auto;
     margin-right: 25px;
     margin-bottom: 26px;
-  }
-
-  .u-header .u-nav-1 {
-    font-family: Arial, sans-serif;
   }
 }
 @media (max-width: 991px) {
