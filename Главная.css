@@ -19,7 +19,6 @@
 .u-section-1 .u-layout-wrap-1 {
   margin-top: 20px;
   margin-bottom: 0;
-  position: relative;
   background-image: none;
 }
 
@@ -70,6 +69,10 @@
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
     min-height: 288px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    position: relative;
   }
 
   .u-section-1 .u-layout-cell-1 {
