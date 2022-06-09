@@ -1,1 +1,7 @@
 ErrorDocument 404 https://finework.tk/404.html
+
+RewriteEngine On
+
+RewriteCond %{HTTPS} =off 
+
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [QSA,L]
