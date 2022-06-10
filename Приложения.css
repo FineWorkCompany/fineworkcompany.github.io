@@ -10,7 +10,7 @@
 .u-section-1 .u-text-1 {
   font-size: 3rem;
   font-weight: 700;
-  margin: 60px 280px 60px auto;
+  margin: 66px 280px 60px auto;
 }
 
 @media (max-width: 1199px) {
@@ -52,9 +52,7 @@
   .u-section-1 .u-text-1 {
     font-size: 1.5rem;
     width: auto;
-    margin-top: 30px;
     margin-right: 54px;
-    margin-bottom: 30px;
   }
 } .u-section-2 {
   background-image: none;

@@ -26,7 +26,25 @@
 }</script>
     <meta name="theme-color" content="#478ac9">
     <meta property="og:type" content="website">
-  </head>
+  <script>
+    function gdprConfirmed() {
+        return true;
+    }
+    if (gdprConfirmed()) {
+    document.write("\
+    \
+    <!-- Google Analytics -->\
+    <gascript async src=\"https://www.googletagmanager.com/gtag/js?id=G-PQJDVWQRZB\"></gascript>\
+    <gascript>\
+        window.dataLayer = window.dataLayer || [];\
+        function gtag(){dataLayer.push(arguments);}\
+        gtag('js', new Date());\
+        gtag('config', 'G-PQJDVWQRZB');\
+    </gascript>\
+    <!-- End Google Analytics -->\
+    ".replace(/gascript/g, 'script'));
+    }
+    </script></head>
   <body class="u-body u-xl-mode"><header class="u-align-center-xs u-clearfix u-header u-palette-1-dark-1 u-header" id="sec-6ffd"><div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-sheet-1">
         <h4 class="u-text u-text-1">
           <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-custom-font u-font-raleway u-hover-none u-none u-text-body-alt-color u-btn-1" href="Главная.html" data-page-id="8094402">FineWork</a>
@@ -41,26 +59,28 @@
           </div>
           <div class="u-custom-menu u-nav-container">
             <ul class="u-custom-font u-font-arial u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-grey-10 u-text-hover-palette-3-light-2" href="Главная.html" style="padding: 10px 20px;">Главная</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-grey-10 u-text-hover-palette-3-light-2" href="Product/FineWork-Type-Pro.html" style="padding: 10px 20px;">FineWork Type Pro</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-grey-10 u-text-hover-palette-3-light-2" href="Игры.html" style="padding: 10px 20px;">Игры</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-grey-10 u-text-hover-palette-3-light-2" href="Приложения.html" style="padding: 10px 20px;">Приложения</a>
 </li></ul>
           </div>
           <div class="u-custom-menu u-nav-container-collapse">
-            <div class="u-align-center u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+            <div class="u-align-center u-container-style u-inner-container-layout u-palette-1-dark-2 u-sidenav">
               <div class="u-inner-container-layout u-sidenav-overflow">
                 <div class="u-menu-close"></div>
-                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Главная.html">Главная</a>
+                <ul class="u-align-center u-custom-font u-font-arial u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Главная.html">Главная</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Product/FineWork-Type-Pro.html">FineWork Type Pro</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Игры.html">Игры</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Приложения.html">Приложения</a>
 </li></ul>
               </div>
             </div>
-            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-90"></div>
           </div>
         </nav>
       </div></header>
     <section class="u-clearfix u-image u-section-1" id="sec-0e73" data-image-width="1600" data-image-height="900">
-      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+      <div class="u-clearfix u-sheet u-sheet-1">
         <h2 class="u-text u-text-body-alt-color u-text-default u-text-1">Приложения</h2>
       </div>
     </section>
@@ -111,7 +131,7 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
                 <img class="u-image u-image-default u-preserve-proportions u-image-2" src="images/notes.png" alt="" data-image-width="512" data-image-height="512">
                 <p class="u-text u-text-default u-text-5">FineWork Type Pro</p>
                 <p class="u-text u-text-default u-text-6">Про версия блокнота</p>
-                <a href="FineWork-Type-Pro.html" data-page-id="108266856" class="u-border-none u-btn u-button-style u-custom-color-1 u-btn-2">Подробнее</a>
+                <a href="Product/FineWork-Type-Pro.html" data-page-id="108266856" class="u-border-none u-btn u-button-style u-custom-color-1 u-btn-2">Подробнее</a>
               </div>
             </div>
             <div class="u-container-style u-custom-item u-grey-70 u-list-item u-repeater-item u-list-item-3">
@@ -341,4 +361,5 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
     <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-f3e3"><div class="u-clearfix u-sheet u-sheet-1">
         <p class="u-small-text u-text u-text-variant u-text-1">FineWork 2022</p>
       </div></footer>
+  
 </body></html>

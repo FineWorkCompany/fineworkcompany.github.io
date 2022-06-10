@@ -29,7 +29,25 @@
 }</script>
     <meta name="theme-color" content="#478ac9">
     <meta property="og:type" content="website">
-  </head>
+  <script>
+    function gdprConfirmed() {
+        return true;
+    }
+    if (gdprConfirmed()) {
+    document.write("\
+    \
+    <!-- Google Analytics -->\
+    <gascript async src=\"https://www.googletagmanager.com/gtag/js?id=G-PQJDVWQRZB\"></gascript>\
+    <gascript>\
+        window.dataLayer = window.dataLayer || [];\
+        function gtag(){dataLayer.push(arguments);}\
+        gtag('js', new Date());\
+        gtag('config', 'G-PQJDVWQRZB');\
+    </gascript>\
+    <!-- End Google Analytics -->\
+    ".replace(/gascript/g, 'script'));
+    }
+    </script></head>
   <body class="u-body u-xl-mode"><header class="u-align-center-xs u-clearfix u-header u-palette-1-dark-1 u-header" id="sec-6ffd"><div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-sheet-1">
         <h4 class="u-text u-text-1">
           <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-custom-font u-font-raleway u-hover-none u-none u-text-body-alt-color u-btn-1" href="Главная.html" data-page-id="8094402">FineWork</a>
@@ -44,26 +62,28 @@
           </div>
           <div class="u-custom-menu u-nav-container">
             <ul class="u-custom-font u-font-arial u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-grey-10 u-text-hover-palette-3-light-2" href="Главная.html" style="padding: 10px 20px;">Главная</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-grey-10 u-text-hover-palette-3-light-2" href="Product/FineWork-Type-Pro.html" style="padding: 10px 20px;">FineWork Type Pro</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-grey-10 u-text-hover-palette-3-light-2" href="Игры.html" style="padding: 10px 20px;">Игры</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-grey-10 u-text-hover-palette-3-light-2" href="Приложения.html" style="padding: 10px 20px;">Приложения</a>
 </li></ul>
           </div>
           <div class="u-custom-menu u-nav-container-collapse">
-            <div class="u-align-center u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+            <div class="u-align-center u-container-style u-inner-container-layout u-palette-1-dark-2 u-sidenav">
               <div class="u-inner-container-layout u-sidenav-overflow">
                 <div class="u-menu-close"></div>
-                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Главная.html">Главная</a>
+                <ul class="u-align-center u-custom-font u-font-arial u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Главная.html">Главная</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Product/FineWork-Type-Pro.html">FineWork Type Pro</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Игры.html">Игры</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Приложения.html">Приложения</a>
 </li></ul>
               </div>
             </div>
-            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-90"></div>
           </div>
         </nav>
       </div></header>
     <section class="u-align-center u-clearfix u-grey-80 u-section-1" id="sec-f172">
-      <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xl u-sheet-1">
+      <div class="u-clearfix u-sheet u-sheet-1">
         <h1 class="u-text u-text-default u-text-1">FineWork</h1>
         <h1 class="u-custom-font u-font-roboto-condensed u-text u-text-default u-text-2"> Компания FineWork основана участником Марк Аддерли в начале марта 2022, и по сей день активно работает над создаем программ и игр с igroman255. </h1>
         <div class="u-clearfix u-expanded-width u-grey-70 u-layout-wrap u-layout-wrap-1">
@@ -85,6 +105,14 @@
           </div>
         </div>
         <a href="https://www.donationalerts.com/r/finework" class="u-border-none u-btn u-button-style u-palette-2-dark-1 u-btn-1" target="_blank">Поддержать компанию</a>
+        <div class="u-align-center u-border-2 u-border-palette-3-light-2 u-container-style u-grey-70 u-group u-radius-50 u-shape-round u-group-1">
+          <div class="u-container-layout u-valign-middle u-container-layout-3">
+            <h1 class="u-text u-text-default u-text-7">FineWork Type Pro</h1>
+            <p class="u-text u-text-8">Платный текстовый редактор от FineWork.<br>Чтобы узнать больше перейдите на страницу Type Pro 
+            </p>
+            <a href="Product/FineWork-Type-Pro.html" data-page-id="108266856" class="u-border-none u-btn u-button-style u-custom-color-2 u-btn-2">Подробнее</a>
+          </div>
+        </div>
       </div>
     </section>
     <section class="u-align-center u-clearfix u-grey-75 u-section-2" id="sec-be2e">
