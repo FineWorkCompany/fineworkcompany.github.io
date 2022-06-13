@@ -2,7 +2,7 @@ ErrorDocument 404 https://finework.tk/404.html
 
 RewriteEngine on
 RewriteCond %{HTTPS} !on
-RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+RewriteRule (.*) https://finework.tk
 
 # Примечание: Рекомендуется включить HTTP Strict Transport Security (HSTS)
 # на вашем HTTPS сайте для предотвращения атак посредника (man-in-the-middle).
