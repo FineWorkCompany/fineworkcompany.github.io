@@ -1,6 +1,12 @@
 ErrorDocument 404 https://finework.tk/404.html
+
 RewriteEngine on
+RewriteCond %{HTTPS} !on
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
 
-RewriteCond %{HTTP:X-Forwarded-Protocol} !=https
-
-RewriteRule . https://finework.tk [R=301,L]
+# Примечание: Рекомендуется включить HTTP Strict Transport Security (HSTS)
+# на вашем HTTPS сайте для предотвращения атак посредника (man-in-the-middle).
+# https://developer.mozilla.org/en-US/docs/Web/Security/HTTP_strict_transport_security
+<IfModule mod_headers.c>
+    Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+</IfModule>
