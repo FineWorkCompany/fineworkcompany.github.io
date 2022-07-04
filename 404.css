@@ -7,12 +7,26 @@
 }
 
 .u-section-1 .u-text-1 {
-  margin: 255px auto 0;
+  margin: 235px auto 0;
 }
 
 .u-section-1 .u-btn-1 {
   background-image: none;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
-  margin: 19px auto 60px;
+  margin: 19px auto 0;
+  padding: 10px 69px 10px 68px;
+}
+
+.u-section-1 .u-btn-2 {
+  background-image: none;
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  margin: 8px auto 60px;
   padding: 10px 48px 10px 47px;
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-text-1 {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
